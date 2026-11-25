@@ -109,7 +109,7 @@ student or driver.
                                       additional charges are permitted,
                                       and whether direct transfer or cash
                                       is preferred.
-  -----------------------------------------------------------------------
+ 
 
 ## 3. User Research and Evidence
 
@@ -253,33 +253,33 @@ should be assigned only after the team reviews the research and agrees
 on the MVP.
 
   -----------------------------------------------------------------------
-  ID                      Requirement             Description
-  ----------------------- ----------------------- -----------------------
-  FR-01                   Student accounts        Students can register
+  ## ID                        Requirement              Description
+ 
+  FR-01                   Student accounts -        Students can register
                                                   and securely access the
                                                   platform.
 
-  FR-02                   Driver accounts and     Drivers can register,
-                          verification            submit required details
+  FR-02                   Driver accounts and verification - Drivers can register,
+                                                    submit required details
                                                   and complete
                                                   verification before
                                                   receiving requests.
 
-  FR-03                   Driver availability     Drivers can switch
+  FR-03                   Driver availability -    Drivers can switch
                                                   between online and
                                                   offline. Offline
                                                   drivers do not receive
                                                   new requests.
 
-  FR-04                   Campus pickup and       Students can select
-                          destination             pickup and destination
+  FR-04                   Campus pickup and destination -  Students can select
+                                                    pickup and destination
                                                   locations from a campus
                                                   location list.
                                                   GPS-based selection can
                                                   be considered later.
 
-  FR-05                   Passenger and luggage   Students can specify
-                          details                 the number of
+  FR-05                   Passenger and luggage details -   Students can specify
+                                                    the number of
                                                   passengers and indicate
                                                   whether they have
                                                   luggage. The system
@@ -288,8 +288,8 @@ on the MVP.
                                                   capacity; luggage rules
                                                   require research.
 
-  FR-06                   Vehicle categories and  Drivers register the
-                          capacity                vehicle category and
+  FR-06                   Vehicle categories and capacity -  Drivers register the
+                                                    vehicle category and
                                                   its approved capacity.
                                                   Proposed categories are
                                                   a smaller Keke with 3
@@ -299,7 +299,7 @@ on the MVP.
                                                   capacities must be
                                                   verified.
 
-  FR-07                   Shared ride requests    Students can request a
+  FR-07                   Shared ride requests -   Students can request a
                                                   shared ride. The system
                                                   identifies requests
                                                   with compatible pickup
@@ -308,8 +308,8 @@ on the MVP.
                                                   to capacity and an
                                                   acceptable detour.
 
-  FR-08                   Driver review and       Drivers can review
-                          acceptance              pickup, destination,
+  FR-08                   Driver review and acceptance -  Drivers can review
+                                                   pickup, destination,
                                                   passenger count, ride
                                                   type, fare and
                                                   remaining seats before
@@ -319,7 +319,7 @@ on the MVP.
                                                   force a driver to
                                                   accept.
 
-  FR-09                   Dynamic seat allocation The system tracks
+  FR-09                Dynamic seat allocation - The system tracks
                                                   vehicle capacity,
                                                   passengers already
                                                   onboard and seats
@@ -330,7 +330,7 @@ on the MVP.
                                                   requests arrive at
                                                   nearly the same time.
 
-  FR-10                   Private bookings        A passenger can request
+  FR-10                   Private bookings -       A passenger can request
                                                   a private ride that
                                                   reserves the entire
                                                   vehicle for that
@@ -340,7 +340,7 @@ on the MVP.
                                                   private ride is
                                                   completed.
 
-  FR-11                   Urgent booking priority An urgent request can
+  FR-11                   Urgent booking priority - An urgent request can
                                                   be prioritised when
                                                   finding an available
                                                   driver. It indicates a
@@ -351,7 +351,7 @@ on the MVP.
                                                   and user demand are
                                                   validated.
 
-  FR-12                   Fare information        The app displays the
+  FR-12                   Fare information -       The app displays the
                                                   applicable fare before
                                                   the passenger confirms
                                                   a request. The proposed
@@ -364,8 +364,8 @@ on the MVP.
                                                   categories; this must
                                                   be verified.
 
-  FR-13                   Driver bank account     After a driver accepts
-                          details                 a booking, the
+  FR-13                 Driver bank account details -    After a driver accepts
+                                                   a booking, the
                                                   passenger can view the
                                                   driver's registered
                                                   account name, bank name
@@ -375,14 +375,14 @@ on the MVP.
                                                   not collect or process
                                                   payment.
 
-  FR-14                   Booking confirmation    Students can see
-                          and status              whether a request is
+  FR-14             Booking confirmation and status -   Students can see
+                                                    whether a request is
                                                   pending, accepted,
                                                   declined, cancelled, in
                                                   progress or completed.
 
-  FR-15                   Individual passenger    Each passenger booking
-                          booking status          has its own status even
+  FR-15                   Individual passenger booking status -   Each passenger booking
+                                                  has its own status even
                                                   when several bookings
                                                   belong to one shared
                                                   journey. Completing one
@@ -391,19 +391,19 @@ on the MVP.
                                                   passenger's reserved
                                                   seats.
 
-  FR-16                   Booking history         Users can review
+  FR-16                   Booking history -        Users can review
                                                   relevant previous
                                                   bookings and their
                                                   status.
 
-  FR-17                   Scheduled bookings      Students may be able to
+  FR-17                   Scheduled bookings -     Students may be able to
                                                   request a ride for a
                                                   later time. This is a
                                                   later-phase feature
                                                   unless research shows
                                                   it is essential.
 
-  FR-18                   Location updates        The platform may show
+  FR-18                   Location updates -       The platform may show
                                                   the assigned Keke's
                                                   live location if
                                                   technical feasibility,
@@ -412,7 +412,7 @@ on the MVP.
                                                   are validated. This is
                                                   not required for the
                                                   first MVP.
-  -----------------------------------------------------------------------
+
 
 ### 5.1 Non-functional requirements
 
@@ -509,7 +509,7 @@ solve a real campus transport problem.
                                       accepted driver's registered bank
                                       account details for direct payment
                                       outside the app.
-  -----------------------------------------------------------------------
+
 
 ## 8. Business Rules and Open Questions
 
@@ -563,7 +563,7 @@ solve a real campus transport problem.
 
   Is live location tracking practical Affects technical scope,
   on campus?                          connectivity and privacy.
-  -----------------------------------------------------------------------
+
 
 ## 9. Success Measures and Risks
 
