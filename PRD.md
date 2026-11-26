@@ -414,7 +414,7 @@ on the MVP.
                                                   first MVP.
 
 
-## 5.  User Stories
+## 6.  User Stories
 
 1. As a student, I want to request a Keke through the app so that I don’t have to stand by the roadside waiting or physically hail drivers.
 2. As a student, I want to find available Keke drivers when I need a ride so that I can reduce the difficulty of getting picked up.
@@ -425,7 +425,7 @@ on the MVP.
 
 
 
-### 6.1 Non-functional requirements
+### 7.1 Non-functional requirements
 
 -   Usability: the booking process should be clear to both students and
     drivers.
@@ -442,7 +442,7 @@ on the MVP.
     seat-reservation records must remain accurate, including when
     multiple requests are received at the same time.
 
-## 7. Proposed Booking Workflow
+## 8. Proposed Booking Workflow
 
 Student: sign in → choose pickup and destination → enter passenger count
 and luggage information → select shared or private ride → review fare →
@@ -463,7 +463,7 @@ booking blocks additional pickups until it is completed. Each passenger
 booking must be tracked separately so one passenger can alight without
 ending the entire shared journey.
 
-## 8. MVP Scope
+## 9. MVP Scope
 
 The MVP should test the product's main difference from a basic
 ride-booking app: matching passengers travelling in compatible
@@ -522,7 +522,7 @@ solve a real campus transport problem.
                                       outside the app.
 
 
-## 9. Business Rules and Open Questions
+## 10. Business Rules and Open Questions
 
   -----------------------------------------------------------------------
   Business rule / question to resolve Why it matters
@@ -576,7 +576,7 @@ solve a real campus transport problem.
   on campus?                          connectivity and privacy.
 
 
-## 10. Success Measures and Risks
+## 11. Success Measures and Risks
 
 Possible measures for an MVP test:
 
