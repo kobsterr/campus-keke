@@ -414,7 +414,18 @@ on the MVP.
                                                   first MVP.
 
 
-### 5.1 Non-functional requirements
+## 5.  User Stories
+
+1. As a student, I want to request a Keke through the app so that I don’t have to stand by the roadside waiting or physically hail drivers.
+2. As a student, I want to find available Keke drivers when I need a ride so that I can reduce the difficulty of getting picked up.
+3. As a student, I want to enter my pickup and destination locations so that I can find a Keke driver who can take me where I need to go.
+4. As a student, I want to see the expected fare before confirming a booking so that I can avoid unexpected payment demands from drivers.
+5. As a student in a hurry, I want to request an urgent pickup so that I have a better chance of getting transportation when time is important.
+6. As a student willing to pay for urgent transportation, I want to know the additional cost of an urgent pickup before booking so that I can decide whether the priority service is worth paying for.
+
+
+
+### 6.1 Non-functional requirements
 
 -   Usability: the booking process should be clear to both students and
     drivers.
@@ -431,7 +442,7 @@ on the MVP.
     seat-reservation records must remain accurate, including when
     multiple requests are received at the same time.
 
-## 6. Proposed Booking Workflow
+## 7. Proposed Booking Workflow
 
 Student: sign in → choose pickup and destination → enter passenger count
 and luggage information → select shared or private ride → review fare →
@@ -452,7 +463,7 @@ booking blocks additional pickups until it is completed. Each passenger
 booking must be tracked separately so one passenger can alight without
 ending the entire shared journey.
 
-## 7. MVP Scope
+## 8. MVP Scope
 
 The MVP should test the product's main difference from a basic
 ride-booking app: matching passengers travelling in compatible
@@ -511,7 +522,7 @@ solve a real campus transport problem.
                                       outside the app.
 
 
-## 8. Business Rules and Open Questions
+## 9. Business Rules and Open Questions
 
   -----------------------------------------------------------------------
   Business rule / question to resolve Why it matters
@@ -565,7 +576,7 @@ solve a real campus transport problem.
   on campus?                          connectivity and privacy.
 
 
-## 9. Success Measures and Risks
+## 10. Success Measures and Risks
 
 Possible measures for an MVP test:
 
