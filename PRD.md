@@ -401,7 +401,7 @@ on the MVP.
                                                   later time. This is a
                                                   later-phase feature
                                                   unless research shows
-                                                  it is essential.
+                                                  it is essential..
 
   FR-18                   Location updates -       The platform may show
                                                   the assigned Keke's
